@@ -30,17 +30,17 @@ const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 			// API KEY
-			const apiKey = 'APIKEY' // get in https://mhankbarbar.tech/api
+			const apiKey = 'IDxO1TFYnKADlX4pxcHa' // get in https://mhankbarbar.tech/api
 			const tobzkey = 'BotWeA'// GET IN https://tobz-api.herokuapp.com/api
-			const vhtearkey = 'APIKEY'// GET IN https://api.vhtear.com/
+			const vhtearkey = 'RamlanID'// GET IN https://api.vhtear.com/
 			const zekskey = 'apivinz' //GET IN https://api.zeks.xyz
 			const techkey = 'APIKEY' //GET IN https://api.i-tech.id
 			
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Ownerbot\n'
-            + 'ORG:Creator SELF BOT;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285959375675:+62 877-7545-2636\n'
+            + 'FN:ABIL-GANZ\n'
+            + 'ORG:ABIL-SELALU;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6283891411268:6283891411268\n'
             + 'END:VCARD'
 prefix = '!'
 blocked = []            
@@ -162,7 +162,7 @@ hafizh.on('group-participants-update', async (anu) => {
 				}
 			}
 			const botNumber = hafizh.user.jid
-			const ownerNumber = ["6285959375675@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["6283891411268@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? tod.participant : tod.key.remoteJid
 			const groupMetadata = isGroup ? await hafizh.groupMetadata(from) : ''
